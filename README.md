@@ -2,8 +2,8 @@
 JS로 format 함수 구현
 
 ```
-if(true) {
-    let testCase = [
+if(true) { // testCases of formatString.format(...args);
+    let testCase = [ // [formatString, args]
         ["{0}", [0]],
         ["{0:05}", [0]],
         ["{0:5}", [12]],
